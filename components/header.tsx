@@ -35,7 +35,7 @@ export function Header() {
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-2">
             <Code className="h-8 w-8 text-blue-500" />
-            <span className="text-xl font-bold text-white">João Silva</span>
+            <span className="text-xl font-bold text-white">Guilherme Brito</span>
           </div>
 
           {/* Desktop Navigation */}
@@ -53,13 +53,13 @@ export function Header() {
 
           {/* Social Links */}
           <div className="hidden md:flex items-center space-x-4">
-            <a href="https://github.com" className="text-white hover:text-blue-400 transition-colors">
+            <a href="https://github.com/guidev1911" target="blank" className="text-white hover:text-blue-400 transition-colors">
               <Github className="h-5 w-5" />
             </a>
-            <a href="https://linkedin.com" className="text-white hover:text-blue-400 transition-colors">
+            <a href="https://www.linkedin.com/in/guilherme-brito-souza-santos-49766329b/" target="blank" className="text-white hover:text-blue-400 transition-colors">
               <Linkedin className="h-5 w-5" />
             </a>
-            <a href="mailto:joao@email.com" className="text-white hover:text-blue-400 transition-colors">
+            <a href="mailto:guilhermereal1911@gmail.com" target="blank" className="text-white hover:text-blue-400 transition-colors">
               <Mail className="h-5 w-5" />
             </a>
           </div>

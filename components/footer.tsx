@@ -13,7 +13,7 @@ export function Footer() {
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
               <Code className="h-8 w-8 text-blue-500" />
-              <span className="text-xl font-bold text-white">João Silva</span>
+              <span className="text-xl font-bold text-white">Guilherme Brito</span>
             </div>
             <p className="text-gray-400 leading-relaxed">
               Desenvolvedor Backend Java especializado em criar soluções robustas e escaláveis para empresas de todos os
@@ -48,19 +48,19 @@ export function Footer() {
             <h3 className="text-white font-semibold text-lg">Redes Sociais</h3>
             <div className="flex space-x-4">
               <a
-                href="https://github.com"
+                href="https://github.com/guidev1911" target="blank"
                 className="p-3 bg-gray-800 rounded-lg text-gray-400 hover:text-white hover:bg-blue-600 transition-all duration-300"
               >
                 <Github className="h-5 w-5" />
               </a>
               <a
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/in/guilherme-brito-souza-santos-49766329b/" target="blank"
                 className="p-3 bg-gray-800 rounded-lg text-gray-400 hover:text-white hover:bg-blue-600 transition-all duration-300"
               >
                 <Linkedin className="h-5 w-5" />
               </a>
               <a
-                href="mailto:joao@email.com"
+                href="mailto:guilhermereal1911@gmail.com"
                 className="p-3 bg-gray-800 rounded-lg text-gray-400 hover:text-white hover:bg-blue-600 transition-all duration-300"
               >
                 <Mail className="h-5 w-5" />
@@ -71,10 +71,9 @@ export function Footer() {
         </div>
 
         <div className="border-t border-gray-800 mt-12 pt-8">
-          <div className="flex flex-col md:flex-row justify-between items-center">
-            <p className="text-gray-400 text-sm">© {currentYear} João Silva. Todos os direitos reservados.</p>
-            <p className="text-gray-400 text-sm flex items-center mt-4 md:mt-0">
-              Feito com <Heart className="h-4 w-4 text-red-500 mx-1" /> e muito café ☕
+          <div className="flex justify-center items-center">
+            <p className="text-gray-400 text-sm text-center">
+              When you seek the light, it begins to see you
             </p>
           </div>
         </div>

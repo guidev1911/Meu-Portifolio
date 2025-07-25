@@ -7,7 +7,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
-import { Mail, Phone, MapPin, Send } from "lucide-react"
+import { Mail, Phone, MapPin, Send, Target } from "lucide-react"
 
 export function ContactSection() {
   const [formData, setFormData] = useState({
@@ -19,7 +19,6 @@ export function ContactSection() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
-    // Handle form submission
     console.log("Form submitted:", formData)
   }
 
@@ -34,20 +33,20 @@ export function ContactSection() {
     {
       icon: <Mail className="h-6 w-6 text-blue-400" />,
       title: "Email",
-      value: "joao.silva@email.com",
-      link: "mailto:joao.silva@email.com",
+      value: "guilhermereal1911@gmail.com",
+      link: "mailto:guilhermereal@gmail.com",
     },
     {
       icon: <Phone className="h-6 w-6 text-blue-400" />,
       title: "Telefone",
-      value: "+55 (11) 99999-9999",
-      link: "tel:+5511999999999",
+      value: "+55 (79) 99897-4515",
+      link: "tel:+5579998974515",
     },
     {
       icon: <MapPin className="h-6 w-6 text-blue-400" />,
       title: "Localização",
-      value: "São Paulo, SP - Brasil",
-      link: "#",
+      value: "São Cristovão, SE - Brasil",
+      link: "https://maps.app.goo.gl/8FWjXTcG9KXwtD169",
     },
   ]
 
