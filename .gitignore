@@ -1,3 +1,4 @@
+# ----------------------------------------
 # Node.js
 node_modules/
 npm-debug.log*
@@ -5,59 +6,67 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 
+# ----------------------------------------
 # Build outputs
 .next/
 out/
 dist/
 build/
 
-# Vercel
+# Vercel deployment folder
 .vercel/
 
-# Environment variables
+# ----------------------------------------
+# Environment variables (NUNCA versionar)
 .env
 .env.local
 .env.development.local
 .env.test.local
 .env.production.local
 
+# ----------------------------------------
 # Logs
 logs/
 *.log
 
-# OS-specific files
-.DS_Store
-Thumbs.db
-
-# Editor directories and files
-.vscode/
-.idea/
-*.swp
-
-# TypeScript
-*.tsbuildinfo
-
-# Coverage (caso use Jest ou similares)
-coverage/
-
-# Cache
-.cache/
-.next/cache/
-turbo/
-
-# Local runtime data
+# Runtime data
 *.pid
 *.seed
 *.pid.lock
 
-# Sentry CLI
+# ----------------------------------------
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# ----------------------------------------
+# Editor & IDE configs
+.vscode/
+.idea/
+*.swp
+
+# ----------------------------------------
+# TypeScript
+*.tsbuildinfo
+
+# ----------------------------------------
+# Test coverage & cache
+coverage/
+.cache/
+.next/cache/
+turbo/
+
+# ----------------------------------------
+# CLI tools
 .sentryclirc
 
-# Playwright (caso use para testes E2E)
+# ----------------------------------------
+# E2E testing (Playwright, etc)
 playwright-report/
 test-results/
 
-# Optional: lockfiles se você não quiser versioná-los
+# ----------------------------------------
+# Optional: Lockfiles
 # package-lock.json
 # yarn.lock
 # pnpm-lock.yaml
