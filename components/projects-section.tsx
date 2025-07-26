@@ -7,13 +7,13 @@ import { ExternalLink, Github } from "lucide-react"
 export function ProjectsSection() {
   const projects = [
     {
-      title: "E-commerce API",
+      title: "ShortCode",
       description:
-        "API REST completa para e-commerce com Spring Boot, PostgreSQL e Redis para cache. Implementa autenticação JWT, processamento de pagamentos e sistema de notificações.",
-      technologies: ["Java", "Spring Boot", "PostgreSQL", "Redis", "Docker"],
-      github: "https://github.com",
-      demo: "https://demo.com",
-      image: "/placeholder.svg?height=200&width=400&text=E-commerce+API",
+        "API de Encurtador de URL desenvolvida com Java, Spring Boot, MySQL e Docker. Projeto criado do zero até o deploy, com o banco de dados hospedado na Aiven e a API na Render (ambos nos planos gratuitos). Permite encurtar URLs gerando códigos únicos, com opção de definir um tempo de expiração de até 7 dias. A data e hora inseridas são convertidas para UTC e armazenadas no banco, garantindo consistência global. É possível consultar informações do link, como data de criação, expiração e número de cliques. Além disso, há um agendador que remove automaticamente todos os links expirados diariamente às 03h.",
+      technologies: ["Java", "Spring Boot", "MySql", "Docker"],
+      github: "https://github.com/guidev1911/ShortCode",
+      demo: "https://guidev1911.github.io/ShortCodeWeb/",
+      image: "/images/shortcode.png",
     },
     {
       title: "Sistema de Microserviços",
@@ -77,18 +77,34 @@ export function ProjectsSection() {
                 </div>
 
                 <div className="flex gap-4 pt-4">
-                  <Button
-                    variant="outline"
-                    size="sm"
-                    className="border-blue-400 text-blue-400 hover:bg-blue-400 hover:text-black bg-transparent"
+                  <a
+                    href={project.github}
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
-                    <Github className="mr-2 h-4 w-4" />
-                    Código
-                  </Button>
-                  <Button size="sm" className="bg-blue-600 hover:bg-blue-700">
-                    <ExternalLink className="mr-2 h-4 w-4" />
-                    Demo
-                  </Button>
+                    <Button
+                      variant="outline"
+                      size="sm"
+                      className="border-blue-400 text-blue-400 hover:bg-blue-400 hover:text-black bg-transparent"
+                    >
+                      <Github className="mr-2 h-4 w-4" />
+                      Código
+                    </Button>
+                  </a>
+
+                  <a
+                    href={project.demo}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <Button
+                      size="sm"
+                      className="bg-blue-600 hover:bg-blue-700"
+                    >
+                      <ExternalLink className="mr-2 h-4 w-4" />
+                      Demo
+                    </Button>
+                  </a>
                 </div>
               </CardContent>
             </Card>
