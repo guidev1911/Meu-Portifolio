@@ -50,13 +50,22 @@ export function AboutSection() {
 
             <div className="flex flex-wrap gap-4 mt-8">
               <span className="px-4 py-2 bg-blue-600/20 text-blue-400 rounded-lg border border-blue-600/30">
-                5+ Anos de Experiência
+                Projetos pessoais
               </span>
               <span className="px-4 py-2 bg-blue-600/20 text-blue-400 rounded-lg border border-blue-600/30">
-                20+ Projetos Concluídos
+                Java DevDojoAcademy
               </span>
               <span className="px-4 py-2 bg-blue-600/20 text-blue-400 rounded-lg border border-blue-600/30">
-                Certificado Oracle
+                SpringBoot Erudio trainning na Udemy
+              </span>
+              <span className="px-4 py-2 bg-blue-600/20 text-blue-400 rounded-lg border border-blue-600/30">
+                Java HackerRank
+              </span>
+              <span className="px-4 py-2 bg-blue-600/20 text-blue-400 rounded-lg border border-blue-600/30">
+                Freelance com Java
+              </span>
+              <span className="px-4 py-2 bg-blue-600/20 text-blue-400 rounded-lg border border-blue-600/30">
+                Desafios técnicos
               </span>
             </div>
           </div>

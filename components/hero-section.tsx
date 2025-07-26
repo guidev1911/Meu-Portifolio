@@ -53,20 +53,26 @@ export function HeroSection() {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <Button
-              size="lg"
-              className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg transition-all duration-300 transform hover:scale-105"
-            >
-              <Download className="mr-2 h-5 w-5" />
-              Download CV
-            </Button>
-            <Button
-              variant="outline"
-              size="lg"
-              className="border-blue-400 text-blue-400 hover:bg-blue-400 hover:text-black px-8 py-3 rounded-lg transition-all duration-300 bg-transparent"
-            >
-              Ver Projetos
-            </Button>
+            <a href="/download/GuiCurriculoJJR.pdf" download>
+              <Button
+                size="lg"
+                className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg transition-all duration-300 transform hover:scale-105"
+              >
+                <Download className="mr-2 h-5 w-5" />
+                Download CV
+              </Button>
+            </a>
+
+            <a href="#projects">
+              <Button
+                variant="outline"
+                size="lg"
+                className="border-blue-400 text-blue-400 hover:bg-blue-400 hover:text-black px-8 py-3 rounded-lg transition-all duration-300 bg-transparent"
+              >
+                Ver Projetos
+              </Button>
+            </a>
+
           </div>
         </div>
       </div>
