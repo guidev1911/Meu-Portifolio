@@ -10,7 +10,7 @@ export function ProjectsSection() {
       title: "ShortCode",
       description:
         "API de Encurtador de URL desenvolvida com Java, Spring Boot, MySQL e Docker. Projeto criado do zero até o deploy, com o banco de dados hospedado na Aiven e a API na Render (ambos nos planos gratuitos). Permite encurtar URLs gerando códigos únicos, com opção de definir um tempo de expiração de até 7 dias. A data e hora inseridas são convertidas para UTC e armazenadas no banco, garantindo consistência global. É possível consultar informações do link, como data de criação, expiração e número de cliques. Além disso, há um agendador que remove automaticamente todos os links expirados diariamente às 03h.",
-      technologies: ["Java", "Spring Boot", "MySql", "Docker"],
+      technologies: ["Java", "Spring Boot", "MySql", "JUnit5","Swagger","Spring Actuator","Spring Data JPA","Docker","Maven","ZonedDateTime","Scheduled","Mockito","Regex"],
       github: "https://github.com/guidev1911/ShortCode",
       demo: "https://guidev1911.github.io/ShortCodeWeb/",
       image: "/images/shortcode.png",
@@ -19,19 +19,19 @@ export function ProjectsSection() {
       title: "Sistema de Microserviços",
       description:
         "Arquitetura de microserviços com Spring Boot: Dividi a aplicação em serviços especializados — product-service, order-service, payment-service. Eureka Server: Serviço de descoberta para facilitar o balanceamento e a comunicação entre microserviços. API Gateway: Gerencia todas as requisições externas e faz roteamento inteligente para os serviços corretos. RabbitMQ: Utilizado para comunicação assíncrona entre microserviços, garantindo desacoplamento e escalabilidade. Swagger UI: interface swagger para acesso facilitado aos 3 micro serviços. PostgreSQL: Banco de dados para persistência dos dados dos serviços. Keycloak: Solução completa de autenticação e autorização, integrando segurança via OAuth2 e JWT no Gateway, garantindo proteção para todos os endpoints..",
-      technologies: ["Java", "Spring Boot", "RabbitMQ", "keyCloak","SpringCloud","PostGreSQL","Docker"],
+      technologies: ["Java", "Spring Boot", "RabbitMQ", "keyCloak","SpringCloud","PostGreSQL","Maven","Docker","Spring Data JPA", "Swagger", "MapStruct"],
       github: "https://www.linkedin.com/posts/guilherme-brito-souza-santos-49766329b_microservices-springboot-rabbitmq-activity-7349591179409223681-szjq?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEiItPMBGZ6MFmADAKDc1INgrMrxiTEvHkg",
       demo: "/images/microservices.png",
       image: "/images/microservices.png",
     },
     {
-      title: "API de Gestão Financeira",
+      title: "API de Gestão de estoque de carros",
       description:
-        "Sistema robusto para controle financeiro com relatórios avançados, integração bancária e dashboard em tempo real. Foco em performance e segurança.",
-      technologies: ["Java", "Spring Boot", "MySQL", "RabbitMQ", "keyCloak","SpringCloud",""],
-      github: "https://www.linkedin.com/posts/guilherme-brito-souza-santos-49766329b_microservices-springboot-rabbitmq-activity-7349591179409223681-szjq?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEiItPMBGZ6MFmADAKDc1INgrMrxiTEvHkg",
-      demo: "",
-      image: "/placeholder.svg?height=200&width=400&text=Financial+Management+API",
+        "A FirstMotors API é uma aplicação RESTful desenvolvida em Java com Spring Boot, projetada para gerenciar uma loja de carros. Ela implementa um sistema completo de cadastro, consulta, atualização e exclusão de veículos (CRUD), com persistência de dados em banco MySQL. A API suporta múltiplos formatos de entrada e saída, como JSON, XML e YAML, através de content negotiation. Conta com documentação interativa via Swagger UI, tratamento personalizado de exceções e integração com Docker para facilitar a execução do ambiente. As migrações do banco de dados são automatizadas com Flyway, garantindo a criação e a população inicial da estrutura ao iniciar o sistema. Além disso, testes automatizados foram implementados com JUnit e Mockito, cobrindo a lógica de negócios. A FirstMotors é ideal para demonstrar boas práticas de desenvolvimento backend com foco em organização, escalabilidade e facilidade de uso.",
+      technologies: ["Java", "Spring Boot", "MySQL", "Spring Data JPA","Maven","Swagger", "Docker", "DozerMapper", "JUnit", "Mockito", "FlyWay", "Content Negociation", "HATEOAS"],
+      github: "https://github.com/guidev1911/firstmotors",
+      demo: "/images/firstmotors.png",
+      image: "/images/firstmotors.png",
     },
   ]
 
