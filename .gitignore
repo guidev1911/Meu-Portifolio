@@ -1,27 +1,63 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-
-# dependencies
-/node_modules
-
-# next.js
-/.next/
-/out/
-
-# production
-/build
-
-# debug
+# Node.js
+node_modules/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-.pnpm-debug.log*
+pnpm-debug.log*
 
-# env files
-.env*
+# Build outputs
+.next/
+out/
+dist/
+build/
 
-# vercel
-.vercel
+# Vercel
+.vercel/
 
-# typescript
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+logs/
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Editor directories and files
+.vscode/
+.idea/
+*.swp
+
+# TypeScript
 *.tsbuildinfo
-next-env.d.ts
+
+# Coverage (caso use Jest ou similares)
+coverage/
+
+# Cache
+.cache/
+.next/cache/
+turbo/
+
+# Local runtime data
+*.pid
+*.seed
+*.pid.lock
+
+# Sentry CLI
+.sentryclirc
+
+# Playwright (caso use para testes E2E)
+playwright-report/
+test-results/
+
+# Optional: lockfiles se você não quiser versioná-los
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
