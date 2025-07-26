@@ -18,19 +18,19 @@ export function ProjectsSection() {
     {
       title: "Sistema de Microserviços",
       description:
-        "Arquitetura de microserviços para gestão de pedidos, usando Spring Cloud, Eureka para service discovery e Apache Kafka para mensageria.",
-      technologies: ["Java", "Spring Cloud", "Kafka", "Docker", "Kubernetes"],
-      github: "https://github.com",
-      demo: "https://demo.com",
-      image: "/placeholder.svg?height=200&width=400&text=Microservices+System",
+        "Arquitetura de microserviços com Spring Boot: Dividi a aplicação em serviços especializados — product-service, order-service, payment-service. Eureka Server: Serviço de descoberta para facilitar o balanceamento e a comunicação entre microserviços. API Gateway: Gerencia todas as requisições externas e faz roteamento inteligente para os serviços corretos. RabbitMQ: Utilizado para comunicação assíncrona entre microserviços, garantindo desacoplamento e escalabilidade. Swagger UI: interface swagger para acesso facilitado aos 3 micro serviços. PostgreSQL: Banco de dados para persistência dos dados dos serviços. Keycloak: Solução completa de autenticação e autorização, integrando segurança via OAuth2 e JWT no Gateway, garantindo proteção para todos os endpoints..",
+      technologies: ["Java", "Spring Boot", "RabbitMQ", "keyCloak","SpringCloud","PostGreSQL","Docker"],
+      github: "https://www.linkedin.com/posts/guilherme-brito-souza-santos-49766329b_microservices-springboot-rabbitmq-activity-7349591179409223681-szjq?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEiItPMBGZ6MFmADAKDc1INgrMrxiTEvHkg",
+      demo: "/images/microservices.png",
+      image: "/images/microservices.png",
     },
     {
       title: "API de Gestão Financeira",
       description:
         "Sistema robusto para controle financeiro com relatórios avançados, integração bancária e dashboard em tempo real. Foco em performance e segurança.",
-      technologies: ["Java", "Spring Boot", "MySQL", "JasperReports", "AWS"],
-      github: "https://github.com",
-      demo: "https://demo.com",
+      technologies: ["Java", "Spring Boot", "MySQL", "RabbitMQ", "keyCloak","SpringCloud",""],
+      github: "https://www.linkedin.com/posts/guilherme-brito-souza-santos-49766329b_microservices-springboot-rabbitmq-activity-7349591179409223681-szjq?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEiItPMBGZ6MFmADAKDc1INgrMrxiTEvHkg",
+      demo: "",
       image: "/placeholder.svg?height=200&width=400&text=Financial+Management+API",
     },
   ]
