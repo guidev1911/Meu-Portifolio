@@ -5,7 +5,7 @@ import './globals.css'
 import AnimatedBackground from '@/components/animatedBackground' 
 
 export const metadata: Metadata = {
-  title: 'v0 App',
+  title: 'Portfólio Gui',
   description: 'Created with v0',
   generator: 'v0.dev',
 }
