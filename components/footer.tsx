@@ -22,7 +22,7 @@ export function Footer() {
           </div>
 
           {/* Quick Links */}
-          <div className="space-y-4">
+          <div className="space-y-4 relative z-10">
             <h3 className="text-white font-semibold text-lg">Links Rápidos</h3>
             <div className="space-y-2">
               <a href="#about" className="block text-gray-400 hover:text-blue-400 transition-colors">
@@ -44,7 +44,7 @@ export function Footer() {
           </div>
 
           {/* Social Links */}
-          <div className="space-y-4">
+          <div className="space-y-4 relative z-10">
             <h3 className="text-white font-semibold text-lg">Redes Sociais</h3>
             <div className="flex space-x-4">
               <a

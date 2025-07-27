@@ -1,39 +1,33 @@
-"use client"
+"use client";
 
-import { useEffect, useState } from "react"
-import { ChevronDown, Download } from "lucide-react"
-import { Button } from "@/components/ui/button"
+import { useEffect, useState } from "react";
+import { ChevronDown, Download } from "lucide-react";
+import { Button } from "@/components/ui/button";
 
 export function HeroSection() {
-  const [text, setText] = useState("")
-  const fullText = "Desenvolvedor Backend Java"
+  const [text, setText] = useState("");
+  const fullText = "Desenvolvedor Backend Java";
 
   useEffect(() => {
-    let index = 0
+    let index = 0;
     const typeWriter = () => {
       if (index <= fullText.length) {
-        setText(fullText.slice(0, index))
-        index++
-        setTimeout(typeWriter, 100)
+        setText(fullText.slice(0, index));
+        index++;
+        setTimeout(typeWriter, 100);
       }
-    }
+    };
 
-    typeWriter()
+    typeWriter();
 
-    return () => {} 
-  }, [])
+    return () => {};
+  }, []);
 
   return (
     <section
       id="home"
-      className="min-h-screen bg-gradient-to-br from-black via-gray-900 to-blue-900 flex items-center justify-center relative overflow-hidden"
+      className="min-h-screen flex items-center justify-center relative overflow-hidden bg-gradient-to-br from-black/30 via-gray-900/30 to-blue-900/30"
     >
-      {/* Animated Background Elements */}
-      <div className="absolute inset-0">
-        <div className="absolute top-20 left-20 w-72 h-72 bg-blue-500/10 rounded-full blur-3xl animate-pulse"></div>
-        <div className="absolute bottom-20 right-20 w-96 h-96 bg-blue-600/5 rounded-full blur-3xl animate-pulse delay-1000"></div>
-      </div>
-
       <div className="container mx-auto px-6 text-center relative z-10">
         <div className="animate-fade-in-up">
           <h1 className="text-5xl md:text-7xl font-bold text-white mb-6">
@@ -72,7 +66,6 @@ export function HeroSection() {
                 Ver Projetos
               </Button>
             </a>
-
           </div>
         </div>
       </div>
@@ -81,5 +74,5 @@ export function HeroSection() {
         <ChevronDown className="h-8 w-8 text-blue-400" />
       </div>
     </section>
-  )
+  );
 }
