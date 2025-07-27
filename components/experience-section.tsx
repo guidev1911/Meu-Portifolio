@@ -6,39 +6,27 @@ import { Building, Calendar } from "lucide-react"
 export function ExperienceSection() {
   const experiences = [
     {
-      company: "Tech Solutions Inc.",
-      position: "Senior Java Developer",
-      period: "2022 - Presente",
+      company: "Idealle Sistemas",
+      position: "Estagiário em desenvolvimento de sistemas",
+      period: "08/2024 - 01/2025",
       description:
-        "Liderança técnica no desenvolvimento de microserviços usando Spring Boot e AWS. Responsável por arquitetura de sistemas, code review e mentoria de desenvolvedores júnior.",
+        "Manutenção e evolução de sistemas web voltados para gestão empresarial (ERP) Desenvolvimento de funcionalidades com JavaScript, Node.js e ASP Classic, integração com APIs REST e consumo de dados em sistemas legados, participação em reuniões ágeis com foco em melhorias contínuas, colaboração direta com desenvolvedores e analistas para entrega de soluções",
       achievements: [
-        "Reduziu tempo de resposta da API em 40%",
-        "Implementou CI/CD com Jenkins e Docker",
-        "Liderou migração para arquitetura de microserviços",
+        "Desenvolvimento com Javascript, Asp e Node",
+        "Contribuir e aprender com uma equipe de desenvolvimento e suporte",
+        "Principal responsabilidade identificar e corrigir erros",
       ],
     },
     {
-      company: "Digital Innovations Ltd.",
-      position: "Java Developer",
-      period: "2020 - 2022",
+      company: "Superintendência Municipal de Transportes e Trânsito (SMTT)",
+      position: "Estagiário em técnico de suporte",
+      period: "12/2021 - 12/2023",
       description:
-        "Desenvolvimento de aplicações web robustas usando Spring Framework, PostgreSQL e Redis. Foco em performance, segurança e melhores práticas de desenvolvimento.",
+        "Suporte técnico a usuários (presencial e remoto), instalação e manutenção de softwares e infraestrutura de TI, registro e resolução de chamados técnicos, apoio em testes e validação de sistemas internos com equipe de desenvolvimento",
       achievements: [
-        "Desenvolveu sistema de e-commerce completo",
-        "Implementou autenticação JWT e OAuth2",
-        "Otimizou queries SQL melhorando performance em 60%",
-      ],
-    },
-    {
-      company: "StartupTech",
-      position: "Junior Java Developer",
-      period: "2019 - 2020",
-      description:
-        "Início da carreira desenvolvendo APIs REST e integrações com sistemas externos. Aprendizado intensivo em Spring Boot, JPA e desenvolvimento ágil.",
-      achievements: [
-        "Desenvolveu primeira API REST profissional",
-        "Participou de 15+ sprints ágeis",
-        "Implementou testes unitários com JUnit",
+        "Otimizar o atendimento técnico aos usuários",
+        "Colaborar diretamente com a equipe de T.I da empresa",
+        "Realizar manutenções preventivas e corretivas em equipamentos e garantir a estabilidade da infraestrutura",
       ],
     },
   ]

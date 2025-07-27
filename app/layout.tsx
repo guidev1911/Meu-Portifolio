@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import { GeistSans } from 'geist/font/sans'
 import { GeistMono } from 'geist/font/mono'
 import './globals.css'
-import AnimatedBackground from '@/components/animatedBackground' // Importa o fundo animado
+import AnimatedBackground from '@/components/animatedBackground' 
 
 export const metadata: Metadata = {
   title: 'v0 App',
@@ -27,7 +27,7 @@ html {
         `}</style>
       </head>
       <body>
-        <AnimatedBackground /> {/* monta só 1x, fica atrás do conteúdo */}
+        <AnimatedBackground /> 
         {children}
       </body>
     </html>

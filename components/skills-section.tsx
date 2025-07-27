@@ -10,7 +10,7 @@ export function SkillsSection() {
         { name: "Java", level: 95 },
         { name: "Spring Boot", level: 90 },
         { name: "Spring Security", level: 85 },
-        { name: "Hibernate/JPA", level: 88 },
+        { name: "React", level: 88 },
       ],
     },
     {
@@ -18,26 +18,23 @@ export function SkillsSection() {
       skills: [
         { name: "PostgreSQL", level: 90 },
         { name: "MySQL", level: 85 },
-        { name: "MongoDB", level: 80 },
-        { name: "Redis", level: 75 },
+        { name: "MongoDB", level: 60 },
       ],
     },
     {
       title: "DevOps & Cloud",
       skills: [
         { name: "Docker", level: 85 },
-        { name: "Kubernetes", level: 75 },
-        { name: "AWS", level: 80 },
-        { name: "Jenkins", level: 70 },
+        { name: "AWS", level: 60 },
       ],
     },
     {
       title: "Ferramentas & Outros",
       skills: [
         { name: "Git", level: 95 },
-        { name: "Maven/Gradle", level: 90 },
+        { name: "Maven", level: 90 },
         { name: "JUnit", level: 88 },
-        { name: "Apache Kafka", level: 75 },
+        { name: "RabbitMQ", level: 60 },
       ],
     },
   ]

@@ -38,7 +38,7 @@ export function AboutSection() {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <p className="text-gray-300 text-lg leading-relaxed">
-              Sou um desenvolvedor backend focado em Java com experiência prática com projetos pessoais e projetos reais freelance, especializado no framework Spring criando soluções
+              Sou um desenvolvedor backend focado em Java, formado em Sistemas de Informação pela faculdade estácio de Aracaju, com experiência prática com projetos pessoais e projetos reais freelance, especializado no framework Spring criando soluções
               robustas e escaláveis.
             </p>
 
