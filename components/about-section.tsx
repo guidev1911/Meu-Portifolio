@@ -13,12 +13,12 @@ export function AboutSection() {
     {
       icon: <Database className="h-8 w-8 text-blue-400" />,
       title: "Banco de Dados",
-      description: "Expertise em SQL, NoSQL e otimização",
+      description: "MySql e PostGreSql",
     },
     {
       icon: <Server className="h-8 w-8 text-blue-400" />,
-      title: "Microserviços",
-      description: "Arquitetura distribuída e escalável",
+      title: "Integração",
+      description: "Consumo de APIs com React",
     },
     {
       icon: <Zap className="h-8 w-8 text-blue-400" />,
@@ -38,8 +38,8 @@ export function AboutSection() {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <p className="text-gray-300 text-lg leading-relaxed">
-              Sou um desenvolvedor backend apaixonado por Java com mais de 5 anos de experiência criando soluções
-              robustas e escaláveis. Especializado em Spring Framework, microserviços e arquiteturas distribuídas.
+              Sou um desenvolvedor backend focado em Java com experiência prática com projetos pessoais e projetos reais freelance, especializado no framework Spring criando soluções
+              robustas e escaláveis.
             </p>
 
             <p className="text-gray-300 text-lg leading-relaxed">

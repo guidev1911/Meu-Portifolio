@@ -54,7 +54,7 @@ export function SkillsSection() {
           {skillCategories.map((category, categoryIndex) => (
             <Card
               key={categoryIndex}
-              className="bg-gray-900 border-gray-700 hover:border-blue-500/50 transition-all duration-300"
+              className="bg-gray-900 border-gray-700 hover:border-blue-500/50 transition-all duration-300 relative z-10"
             >
               <CardHeader>
                 <CardTitle className="text-white text-lg">{category.title}</CardTitle>
