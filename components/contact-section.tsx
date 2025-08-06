@@ -17,10 +17,27 @@ export function ContactSection() {
     message: "",
   })
 
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault()
-    console.log("Form submitted:", formData)
-  }
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+
+    try {
+      const res = await fetch('/api/send-email', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(formData),
+      });
+
+      if (res.ok) {
+        alert('Mensagem enviada com sucesso!');
+        setFormData({ name: '', email: '', subject: '', message: '' }); 
+      } else {
+        const data = await res.json();
+        alert('Erro ao enviar: ' + (data.error || 'Erro desconhecido'));
+      }
+    } catch (error) {
+      alert('Erro ao enviar: ' + error);
+    }
+  };
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     setFormData({
