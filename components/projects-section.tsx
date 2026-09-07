@@ -7,13 +7,13 @@ import { ExternalLink, Github } from "lucide-react"
 export function ProjectsSection() {
   const projects = [
     {
-      title: "ShortCode",
+      title: "AI-Productivity-Hub",
       description:
-        "API de Encurtador de URL desenvolvida com Java, Spring Boot, MySQL e Docker. Projeto criado do zero até o deploy, com o banco de dados hospedado na Aiven e a API na Render (ambos nos planos gratuitos). Permite encurtar URLs gerando códigos únicos, com opção de definir um tempo de expiração de até 7 dias. A data e hora inseridas são convertidas para UTC e armazenadas no banco, garantindo consistência global. É possível consultar informações do link, como data de criação, expiração e número de cliques. Além disso, há um agendador que remove automaticamente todos os links expirados diariamente às 03h.",
+        "Plataforma de produtividade desenvolvida com **Java e Spring Boot**, integrada a **Inteligência Artificial através do Model Context Protocol (MCP)**. Permite que modelos de IA utilizem ferramentas para criar, consultar, concluir e excluir tarefas, com persistência em **MySQL**. Utiliza **Spring AI, Ollama e Llama 3.1** para explorar conceitos de **Tool Calling e agentes de IA**.",
       technologies: ["Java", "Spring Boot", "MySql", "JUnit5","Swagger","Spring Actuator","Spring Data JPA","Docker","Maven","ZonedDateTime","Scheduled","Mockito","Regex"],
-      github: "https://github.com/guidev1911/ShortCode",
-      demo: "https://guidev1911.github.io/ShortCodeWeb/",
-      image: "/images/shortcode.png",
+      github: "https://github.com/guidev1911/AI-Productivity-Hub",
+      demo: "/images/AI-Productivity-Hub.png",
+      image: "/images/AI-Productivity-Hub.png",
     },
     {
       title: "Sistema de Microserviços",
@@ -25,13 +25,13 @@ export function ProjectsSection() {
       image: "/images/microservices.png",
     },
     {
-      title: "API de Gestão de estoque de carros",
+      title: "E-commerce",
       description:
-        "A FirstMotors API é uma aplicação RESTful desenvolvida em Java com Spring Boot, projetada para gerenciar uma loja de carros. Ela implementa um sistema completo de cadastro, consulta, atualização e exclusão de veículos (CRUD), com persistência de dados em banco MySQL. A API suporta múltiplos formatos de entrada e saída, como JSON, XML e YAML, através de content negotiation. Conta com documentação interativa via Swagger UI, tratamento personalizado de exceções e integração com Docker para facilitar a execução do ambiente. As migrações do banco de dados são automatizadas com Flyway, garantindo a criação e a população inicial da estrutura ao iniciar o sistema. Além disso, testes automatizados foram implementados com JUnit e Mockito, cobrindo a lógica de negócios. A FirstMotors é ideal para demonstrar boas práticas de desenvolvimento backend com foco em organização, escalabilidade e facilidade de uso.",
-      technologies: ["Java", "Spring Boot", "MySQL", "Spring Data JPA","Maven","Swagger", "Docker", "DozerMapper", "JUnit", "Mockito", "FlyWay", "Content Negociation", "HATEOAS"],
-      github: "https://github.com/guidev1911/firstmotors",
-      demo: "/images/firstmotors.png",
-      image: "/images/firstmotors.png",
+        "E-commerce desenvolvido com **Java e Spring Boot**, com arquitetura REST e autenticação segura utilizando **JWT e refresh tokens rotativos**. O sistema possui gerenciamento de usuários, endereços, categorias e produtos, além de **carrinho de compras, pedidos, cálculo de frete e simulação de pagamentos assíncronos**. Conta também com validações, tratamento global de exceções, controle de estoque e operações transacionais.",
+      technologies: ["Java","Spring Boot","Spring Security","JWT","Spring Data JPA","Hibernate","MySQL","Maven","Docker","Docker Compose","JUnit","Mockito","Kubernetes","Google Cloud Platform","REST API"],
+      github: "https://github.com/guidev1911/E-commerce",
+      demo: "/images/ecommerce.png",
+      image: "/images/ecommerce.png",
     },
   ]
 
