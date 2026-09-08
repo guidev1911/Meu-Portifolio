@@ -10,7 +10,7 @@ export function ProjectsSection() {
       title: "AI-Productivity-Hub",
       description:
         "Plataforma de produtividade desenvolvida com **Java e Spring Boot**, integrada a **Inteligência Artificial através do Model Context Protocol (MCP)**. Permite que modelos de IA utilizem ferramentas para criar, consultar, concluir e excluir tarefas, com persistência em **MySQL**. Utiliza **Spring AI, Ollama e Llama 3.1** para explorar conceitos de **Tool Calling e agentes de IA**.",
-      technologies: ["Next.js","React","TypeScript","Tailwind CSS","Radix UI","tsParticles","React Hook Form","Zod","Recharts","Resend","Lucide React","pnpm"],
+      technologies: ["Java","Spring Boot", "Spring AI", "Spring Data JPA", "MySQL","Spring Validation","Lombok","Maven","Model Context Protocol (MCP)","MCP Inspector","Ollama","Llama 3.1"],
       github: "https://github.com/guidev1911/AI-Productivity-Hub",
       demo: "/images/AI-Productivity-Hub.png",
       image: "/images/AI-Productivity-Hub.png",
